@@ -1,0 +1,29 @@
+@media all and (max-width:1050px){
+    .row-home .button {
+        width: 250px;
+        height: 65px;
+    }
+}
+@media all and (max-width:768px){
+    .row-home .button {
+        width: 210px;
+        height: 65px;
+    }
+}
+
+@media all and (max-width:500px){
+    .row-home {
+        margin-top: 0;
+        flex-direction: column;
+        height: 250px;
+        z-index: 3;
+    }
+
+    .footer-top-bend {
+        margin-top: 56px;
+    }
+
+    h2 {
+        margin-top: 80px;
+    }
+}

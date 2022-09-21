@@ -1,0 +1,6 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "shuchkin/simplexlsx": "^1.0"
+    }
+}
