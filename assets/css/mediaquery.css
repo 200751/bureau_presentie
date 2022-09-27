@@ -4,6 +4,7 @@
         height: 65px;
     }
 }
+
 @media all and (max-width:768px){
     .row-home .button {
         width: 210px;

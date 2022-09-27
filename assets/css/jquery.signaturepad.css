@@ -192,8 +192,6 @@
   margin: 0.75em 0 0.515em;
   padding: 0.515em 0 0;
 
-  border-top: 3px solid #ccc;
-
   color: #000;
   font: italic normal 1em/1.375 Georgia,Times,serif;
 }
@@ -239,6 +237,11 @@ p.error {
   margin-top: 83px;
 }
 
+.row
+{
+  --bs-gutter-x: 0rem;
+}
+
 h2
 {
   font-family: 'Arboria';
@@ -268,33 +271,6 @@ h2
   text-decoration: none;
   color: var(--primary-clr);
   font-size: 2rem;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.row-form
-{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 114px;
-  flex-wrap: nowrap;
-}
-
-.row-form .button
-{
-  width: 397px;
-  height: 85px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.row-form a
-{
-  text-decoration: none;
-  color: var(--primary-clr);
-  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -329,7 +305,12 @@ h2
   color: white;
   font-weight: bold;
 }
-
+.footer-top p a
+{
+ color: white;
+ text-decoration: none;
+ cursor: cell;
+}
 .footer-top p
 {
   z-index: 2;
@@ -401,4 +382,61 @@ h2
   padding-top: 20px;
   padding-left: 23px;
   list-style: none;
+}
+
+.row-form
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  flex-wrap: nowrap;
+}
+
+.row-form .button
+{
+  width: 397px;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-form a
+{
+  text-decoration: none;
+  color: var(--primary-clr);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.row .header
+{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.row .header h1
+{
+  margin-right: auto;
+  /* margin-left: 10px; */
+}
+
+.row .header img
+{
+
+  justify-self: flex-start;
+  margin: 30px;
+  margin-right: auto;
+}
+
+.sigPad
+{
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }

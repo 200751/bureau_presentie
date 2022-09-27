@@ -1,6 +1,7 @@
-            <div class="footer-top-bend"></div>
+          <div id="footer">
+          <div class="footer-top-bend"></div>
             <div class="footer-top">
-                <p>Stay connected</p>
+                <p><a href="#footer"> Stay connected</a></p>
             </div>
             <div class="footer-bottom-bend"></div>
             <div class="footer-bottom">
@@ -26,6 +27,7 @@
                 </div>
             </div>
         </main>
+        </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
     
     <script src="<?= BASEURL;?>assets/js/jquery.signaturepad.js"></script>
